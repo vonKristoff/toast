@@ -1,13 +1,7 @@
 # toast
 
-### Package Module into CJS Format
-This can now be included in another `rollup` built bundle.  
-Work on `es6/package.js`, and create with..
-    
-    npm run package
-
-### Testing bundle
-Work in `js/main` as usual
+### Development
+App Entry `js/main` 
 
     npm start
 

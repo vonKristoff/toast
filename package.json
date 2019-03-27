@@ -27,7 +27,6 @@
     "browser-sync": "latest"
   },
   "scripts": {
-    "firstrun": "./node_modules/.bin/eslint --init",
     "start": "NODE_ENV=development npm-run-all --parallel server:watch listen:*",
     "package": "NODE_ENV=production rollup --config rollup.config.package.js",
     "production": "NODE_ENV=production rollup -c",
